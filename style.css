@@ -1,0 +1,11 @@
+.box{
+    width: 100%;
+    height: auto;
+    box-shadow: 7px 7px 4px #a19d9d;
+    background-color: #fbfbfb;
+    padding: 40px;
+  }
+  .alert-p{
+      color: #f80c0c;
+      font-size: 13px;
+  }

@@ -1,0 +1,93 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+                <br />
+            <div class="box">
+                <br />
+                <a href="logOut.php" class="btn btn-outline-info">log out</a><br/>
+                <br />
+                <p>Hello&nbsp;<span class="UI_firstName"></span></p>
+                <br/>
+
+                <div class="row">
+                    <div class="col add_product">
+                        <a href="addProduct.php" class="btn btn-success">+ Add product</a> 
+                    </div>
+                    <!-- <div class="col payment">
+                        <a href="#" class="btn btn-warning">Payments</a> 
+                    </div> -->
+                    <div class="col all_product">
+                        <a href="allProducts.php" class="btn btn-primary">All products</a>
+                    </div>
+                </div>  
+                
+                <br/>
+                <h3 class="products_title">My products</h3><br />
+                <div class="row products_user">
+                    <table class="table table-bordered table-striped" id="pro_tb">
+                        <thead class="table-info">
+                            <tr>
+                                <th scope="col">Product name</th>
+                                <th scope="col">Product discription</th>
+                                <th scope="col">Product price</th>
+                                <th scope="col">Delete</th>
+                                <th scope="col">Update</th>
+                            </tr>
+                        </thead>
+                        <!--
+                        <tr>
+                                <th >2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                         </tr>
+                         <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                         </tr>
+                        -->
+                    </table>
+                </div>
+
+                <br/>
+                <h3 class="order_title">My new orders</h3>
+                <br/>
+                <div class="row order_user">
+                        <table class="table table-bordered table-striped" id="order_tabel">
+                            <thead class="table-success">
+                                <tr>
+                                    <th scope="col">Product name</th>  
+                                                               
+                                </tr>
+                            </thead>
+                            
+                            <!--
+                            <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                             </tr>
+                             <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                             </tr>
+
+                            -->
+                        </table>
+              </div>
+
+            </div>
+        </div>
+    </div>
+<script src="js/cookies.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/farmer.js"></script>
+<script src="js/customer.js"></script>
+<script src="js/driver.js"></script>
+<script src="js/ordersJson.js"></script>
+<script src="js/data.js"></script>
